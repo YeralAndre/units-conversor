@@ -1,0 +1,34 @@
+{
+  "temperature": {
+    "Celsius": { "visual": "Celsius", "id": "celsius" },
+    "Fahrenheit": { "visual": "Fahrenheit", "id": "fahrenheit" },
+    "Kelvin": { "visual": "Kelvin", "id": "kelvin" }
+  },
+  "length": {
+    "Millimeters": { "visual": "Milímetros", "id": "millimeters" },
+    "Centimeters": { "visual": "Centímetros", "id": "centimeters" },
+    "Meters": { "visual": "Metros", "id": "meters" },
+    "Kilometers": { "visual": "Kilómetros", "id": "kilometers" },
+    "Inches": { "visual": "Pulgadas", "id": "inches" },
+    "Feet": { "visual": "Pies", "id": "feet" },
+    "Yards": { "visual": "Yardas", "id": "yards" },
+    "Miles": { "visual": "Millas", "id": "miles" }
+  },
+  "weight": {
+    "Milligrams": { "visual": "Miligramos", "id": "milligrams" },
+    "Grams": { "visual": "Gramos", "id": "grams" },
+    "Kilograms": { "visual": "Kilogramos", "id": "kilograms" },
+    "Ounces": { "visual": "Onzas", "id": "ounces" },
+    "Pounds": { "visual": "Libras", "id": "pounds" },
+    "Tons": { "visual": "Toneladas", "id": "tons" }
+  },
+  "time": {
+    "Seconds": { "visual": "Segundos", "id": "seconds" },
+    "Minutes": { "visual": "Minutos", "id": "minutes" },
+    "Hours": { "visual": "Horas", "id": "hours" },
+    "Days": { "visual": "Días", "id": "days" },
+    "Weeks": { "visual": "Semanas", "id": "weeks" },
+    "Months": { "visual": "Meses", "id": "months" },
+    "Years": { "visual": "Años", "id": "years" }
+  }
+}
