@@ -1,6 +1,6 @@
 # 🔄 Conversor de Unidades
 
-> Una aplicación de escritorio moderna para conversiones precisas de unidades construida con Tauri, React y TypeScript.
+> Conversor de unidades de escritorio hecho con Tauri, React y TypeScript.
 
 ![Units Converter Banner](https://img.shields.io/badge/Tauri-FFC131?style=for-the-badge&logo=Tauri&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
@@ -13,20 +13,19 @@
 - [Desarrollo](#️-desarrollo)
 - [Stack Tecnológico](#️-stack-tecnológico)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Contribuciones](#-contribuciones)
+- [Contexto Académico](#-contexto-académico)
 - [Licencia](#-licencia)
 
 ## 🎯 Descripción General
 
-**Conversor de Unidades** es una aplicación de escritorio elegante, rápida y confiable que te permite convertir entre diferentes unidades de medida con precisión y facilidad. Perfecta para estudiantes, ingenieros, científicos y profesionales que necesitan conversiones precisas en su trabajo diario.
+**Conversor de Unidades** es una app de escritorio para convertir unidades de forma rápida y precisa. Está pensada para uso diario en contexto académico y técnico, con una interfaz simple y resultados en tiempo real.
 
 ### ¿Por qué Conversor de Unidades?
-- ✅ **Funciona Sin Internet**: Completamente offline, no requiere conexión a internet
-- ⚡ **Súper Rápido**: Conversiones instantáneas mientras escribes
-- 🎨 **Interfaz Moderna**: Diseño limpio e intuitivo con tema oscuro
-- 🔄 **Funciones Inteligentes**: Intercambio de unidades, historial de conversiones y más
-- 📱 **Responsive**: Optimizada para escritorio con tamaño de ventana perfecto
-- 🛡️ **Confiable**: Construida con tecnologías modernas para mayor estabilidad
+- ✅ **Funciona sin internet**: completamente offline.
+- ⚡ **Conversión en tiempo real**: el resultado cambia mientras escribes.
+- 🎨 **Interfaz clara**: tema oscuro y navegación simple.
+- 🔄 **Funciones útiles**: intercambio de unidades e historial.
+- 🛡️ **Base sólida**: construida con Tauri y Rust.
 
 ## ✨ Características
 
@@ -67,18 +66,34 @@ Convierte entre:
 - Años (y)
 
 ### 🚀 **Características Avanzadas**
-- **Conversión en Tiempo Real**: Ve los resultados instantáneamente mientras escribes
-- **Intercambio de Unidades**: Intercambia rápidamente entre unidades "desde" y "hacia"
-- **Historial de Conversiones**: Mantén un registro de tus conversiones anteriores
-- **Navegación Lateral**: Cambio fácil entre tipos de conversores
-- **Tema Oscuro**: Interfaz amigable para uso prolongado
-- **Cálculos Precisos**: Conversiones matemáticas exactas
-- **Diseño Responsive**: Optimización perfecta del diseño
+- **Conversión en tiempo real**: el resultado se actualiza al escribir.
+- **Intercambio de unidades**: permite invertir origen y destino con un clic.
+- **Historial**: guarda conversiones recientes para consulta rápida.
+- **Navegación lateral**: facilita cambiar entre categorías.
+- **Tema oscuro**: pensado para uso prolongado.
+- **Cálculo preciso**: mantiene consistencia en las conversiones.
 
 ## 📸 Capturas de Pantalla
 
-<!-- Agregar capturas de pantalla aquí cuando estén disponibles -->
-*Capturas de pantalla próximamente...*
+Capturas reales de la aplicación de escritorio:
+
+### Inicio
+![Vista principal](./screenshots/home.png)
+
+### Barra de Categorías
+![Barra lateral de categorías](./screenshots/categories.png)
+
+### Conversor de Longitud
+![Conversor de longitud](./screenshots/length.png)
+
+### Conversor de Masa
+![Conversor de masa](./screenshots/mass.png)
+
+### Conversor de Tiempo
+![Conversor de tiempo](./screenshots/time.png)
+
+### Historial de Conversiones
+![Panel de historial](./screenshots/history.png)
 
 ## 💾 Instalación
 
@@ -96,7 +111,7 @@ Convierte entre:
 3. **Ejecutar la aplicación**:
    - Encuentra "Conversor de Unidades" en tu Menú de Inicio
    - Haz doble clic para abrir
-   - ¡Disfruta de conversiones instantáneas de unidades!
+   - Empieza a convertir unidades.
 
 ## 🚀 Uso
 
@@ -125,7 +140,7 @@ Tiempo: 1 semana → 7 días → 168 horas
 ### Configuración
 ```bash
 # Clonar el repositorio
-git clone https://github.com/your-username/units-conversor.git
+git clone https://github.com/YeralAndre/units-conversor.git
 cd units-conversor
 
 # Instalar dependencias
@@ -199,3 +214,11 @@ units-conversor/
 
 - Construido con ❤️ usando [Tauri](https://tauri.app/)
 - Íconos proporcionados por [Lucide](https://lucide.dev/)
+
+## 🎓 Contexto Académico
+
+Este proyecto fue desarrollado como parte de un trabajo universitario para integrar tecnologías web modernas con programación de sistemas (Rust) en una aplicación de escritorio.
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT.

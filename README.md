@@ -1,6 +1,6 @@
 # 🔄 Units Conversor
 
-> A modern desktop application for precise unit conversions built with Tauri, React, and TypeScript.
+> Desktop unit converter built with Tauri, React, and TypeScript.
 
 ![Units Converter Banner](https://img.shields.io/badge/Tauri-FFC131?style=for-the-badge&logo=Tauri&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
@@ -9,6 +9,7 @@
 - [Features](#-features)
 - [Screenshots](#-screenshots)
 - [Installation](#-installation)
+- [Development](#️-development)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Academic Context](#-academic-context)
@@ -16,14 +17,14 @@
 
 ## 🎯 Overview
 
-**Units Conversor** is an elegant, fast, and reliable desktop application that allows you to convert between different units of measurement with precision and ease. It's designed for students, engineers, and professionals who need accurate conversions in their daily workflow.
+**Units Conversor** is a desktop app for quick and accurate unit conversions. It was built for day-to-day use in study and technical work, with a simple interface and real-time results.
 
 ### Why Units Conversor?
-- ✅ **Offline First**: Works completely offline, no internet connection required.
-- ⚡ **Lightning Fast**: Instant conversions as you type.
-- 🎨 **Modern Interface**: Clean and intuitive design with a built-in dark theme.
-- 🔄 **Smart Features**: Unit swapping, conversion history, and persistent settings.
-- 🛡️ **Reliable**: Built with a Rust-based backend for safety and performance.
+- ✅ **Offline**: No internet connection required.
+- ⚡ **Real-time conversion**: Results update while you type.
+- 🎨 **Clean UI**: Dark-themed and easy to navigate.
+- 🔄 **Useful extras**: Unit swap and conversion history.
+- 🛡️ **Solid desktop base**: Powered by Tauri + Rust.
 
 ## ✨ Features
 
@@ -41,8 +42,25 @@
 
 ## 📸 Screenshots
 
-*Add your app screenshots here to showcase the UI!*
-<!-- Example: ![Dashboard](./screenshots/dashboard.png) -->
+Real screenshots of the desktop app:
+
+### Home
+![Home view](./screenshots/home.png)
+
+### Categories Sidebar
+![Categories sidebar](./screenshots/categories.png)
+
+### Length Converter
+![Length converter](./screenshots/length.png)
+
+### Mass Converter
+![Mass converter](./screenshots/mass.png)
+
+### Time Converter
+![Time converter](./screenshots/time.png)
+
+### Conversion History
+![Conversion history panel](./screenshots/history.png)
 
 ## 💾 Installation
 
@@ -82,9 +100,24 @@ pnpm tauri dev
 - **Backend/Desktop**: Tauri (Rust-based framework), WebView.
 - **Build Tools**: Vite, ESLint, pnpm.
 
+## 📁 Project Structure
+
+```text
+units-conversor/
+├── src/                 # React frontend
+│   ├── components/      # UI components
+│   ├── lib/             # Conversion logic
+│   ├── conversors.json  # Converter definitions
+│   ├── App.tsx
+│   └── main.tsx
+├── src-tauri/           # Rust + Tauri backend
+├── public/
+└── screenshots/
+```
+
 ## 🎓 Academic Context
 
-This project was developed as part of a university assignment to demonstrate the integration of modern web technologies with systems-level programming (Rust) to create high-performance desktop applications.
+This project was developed for a university assignment focused on combining modern web development with systems programming (Rust) in a desktop app.
 
 ## 📄 License
 
