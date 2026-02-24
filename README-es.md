@@ -78,22 +78,22 @@ Convierte entre:
 Capturas reales de la aplicación de escritorio:
 
 ### Inicio
-![Vista principal](./screenshots/home.png)
+![Vista principal](./docs/images/home.png)
 
 ### Barra de Categorías
-![Barra lateral de categorías](./screenshots/categories.png)
+![Barra lateral de categorías](./docs/images/categories.png)
 
 ### Conversor de Longitud
-![Conversor de longitud](./screenshots/length.png)
+![Conversor de longitud](./docs/images/length.png)
 
 ### Conversor de Masa
-![Conversor de masa](./screenshots/mass.png)
+![Conversor de masa](./docs/images/mass.png)
 
 ### Conversor de Tiempo
-![Conversor de tiempo](./screenshots/time.png)
+![Conversor de tiempo](./docs/images/time.png)
 
 ### Historial de Conversiones
-![Panel de historial](./screenshots/history.png)
+![Panel de historial](./docs/images/history.png)
 
 ## 💾 Instalación
 

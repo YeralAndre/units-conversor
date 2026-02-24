@@ -45,22 +45,22 @@
 Real screenshots of the desktop app:
 
 ### Home
-![Home view](./screenshots/home.png)
+![Home view](./docs/images/home.png)
 
 ### Categories Sidebar
-![Categories sidebar](./screenshots/categories.png)
+![Categories sidebar](./docs/images/categories.png)
 
 ### Length Converter
-![Length converter](./screenshots/length.png)
+![Length converter](./docs/images/length.png)
 
 ### Mass Converter
-![Mass converter](./screenshots/mass.png)
+![Mass converter](./docs/images/mass.png)
 
 ### Time Converter
-![Time converter](./screenshots/time.png)
+![Time converter](./docs/images/time.png)
 
 ### Conversion History
-![Conversion history panel](./screenshots/history.png)
+![Conversion history panel](./docs/images/history.png)
 
 ## 💾 Installation
 
@@ -112,7 +112,8 @@ units-conversor/
 │   └── main.tsx
 ├── src-tauri/           # Rust + Tauri backend
 ├── public/
-└── screenshots/
+└── docs/
+   └── images/
 ```
 
 ## 🎓 Academic Context
