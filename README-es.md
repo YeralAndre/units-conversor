@@ -85,7 +85,7 @@ Convierte entre:
 ### Para Usuarios de Windows
 
 1. **Descargar el instalador**:
-   - Ve a la página de [Releases](https://github.com/your-username/units-conversor/releases)
+   - Ve a la página de [Releases](https://github.com/YeralAndre/units-conversor/releases)
    - Descarga el archivo `.msi` más reciente
 
 2. **Instalar la aplicación**:
@@ -194,32 +194,6 @@ units-conversor/
 ├── vite.config.ts         # Configuración Vite
 └── tsconfig.json          # Configuración TypeScript
 ```
-
-## 🤝 Contribuciones
-
-¡Damos la bienvenida a las contribuciones! Por favor sigue estos pasos:
-
-1. **Haz fork del repositorio**
-2. **Crea una rama de funcionalidad**: `git checkout -b feature/funcionalidad-increible`
-3. **Commitea tus cambios**: `git commit -m 'Agregar funcionalidad increíble'`
-4. **Push a la rama**: `git push origin feature/funcionalidad-increible`
-5. **Abre un Pull Request**
-
-### Pautas de Desarrollo
-- Sigue las mejores prácticas de TypeScript
-- Usa mensajes de commit significativos
-- Agrega tests para nuevas funcionalidades
-- Actualiza la documentación según sea necesario
-- Asegúrate de que el código pase las verificaciones de linting
-
-## 📄 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-## 👨‍💻 Autores
-
-**Equipo de Desarrollo Grupo Samatel**
-- GitHub: [@your-username](https://github.com/your-username)
 
 ## 🙏 Agradecimientos
 
