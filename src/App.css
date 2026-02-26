@@ -80,7 +80,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 2rem;
+  padding: 6rem 12rem;
 }
 
 .card-section {
@@ -156,7 +156,9 @@ body {
   color: var(--text-color);
   font-family: "JetBrains Mono Variable", sans-serif;
   font-size: 0.95rem;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .card-content-from input:focus,
@@ -193,7 +195,9 @@ body {
   font-family: "JetBrains Mono Variable", sans-serif;
   font-size: 0.95rem;
   cursor: pointer;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .select-icon {
@@ -239,7 +243,9 @@ body {
   height: 2.5rem;
   color: var(--text-color);
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
   padding: 0.75rem;
   border-radius: 0.375rem;
   background-color: #203c6d;
@@ -276,7 +282,6 @@ body {
   left: -320px;
   width: 320px;
   height: 100vh;
-  max-height: 600px;
   background-color: var(--secondary-color);
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 999;
@@ -345,7 +350,9 @@ body {
   font-size: 0.95rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
   text-align: left;
   width: 100%;
 }
@@ -377,7 +384,6 @@ body {
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-right: none;
   transition: right 0.3s ease-in-out;
-  max-height: 600px;
 }
 
 .sidebar-right-open {
@@ -389,7 +395,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-height: 480px;
+  max-height: 90vh;
   overflow-y: auto;
   padding-right: 0.5rem;
 }
